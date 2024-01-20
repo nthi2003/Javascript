@@ -89,7 +89,7 @@ var z = [[1,1,0],[1,0,1],[0,1,1],[0,0,0]];
 // Câu 5 : kiểm tra email
 
 
-
+// Câu 5, 6
 const email = document.getElementById('email')
 const password = document.getElementById('password')
 const form = document.getElementById('form')
@@ -122,9 +122,12 @@ const submitForm = () => {
   var email = document.getElementById("email").value;
   var password = document.getElementById("password").value;
 
-  var o = {
+  var user = {
+    name: 'Nguyễn Văn Quốc Thi',
     email: email,
     password: password
   }
-  console.log(o)
+  console.log(user)
+
+  console.log(user.name)
 }
