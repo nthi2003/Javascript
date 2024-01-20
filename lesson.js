@@ -117,3 +117,14 @@ form.addEventListener('submit', (e) => {
     errorElement.innerText = msg.join(', ')
   }
 })
+// Cau 8
+const submitForm = () => {
+  var email = document.getElementById("email").value;
+  var password = document.getElementById("password").value;
+
+  var o = {
+    email: email,
+    password: password
+  }
+  console.log(o)
+}
