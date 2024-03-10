@@ -123,11 +123,11 @@ const submitForm = () => {
   var password = document.getElementById("password").value;
 
   var user = {
-    name: 'Nguyễn Văn Quốc Thi',
-    email: email,
-    password: password
+    "name": 'Nguyễn Văn Quốc Thi',
+    "email": 'quocthi.dev@gmail.com' ,
+    "password": "12"
   }
   console.log(user)
 
   console.log(user.name)
-}
+} 

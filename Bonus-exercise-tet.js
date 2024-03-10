@@ -118,8 +118,8 @@ const service = require('lib/service')
 // const controller = this.props.console;
 // const component = this.props.component;
 
-import  { action, service } from 'lib';
-const { form, errors, entity, controller, component} = this.props;
+// import  { action, service } from 'lib';
+// const { form, errors, entity, controller, component} = this.props;
 
 //Spead Operator 
 
