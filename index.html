@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div id="demo"></div>
+
+    <script>
+      myDisplayer = something => {
+        document.getElementById("demo").innerHTML = something;
+      };
+
+      myCalculator = (num1, num2, myCallback) => {
+        let sum = num1 + num2;
+        myCallback(sum);
+      };
+      const myCallback = result => {
+        myDisplayer(result);
+      };
+
+      myCalculator(5, 5, myCallback);
+    </script>
+  </body>
+</html>
