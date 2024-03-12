@@ -158,6 +158,8 @@ car.instanceMethod();
 const cabriolet = new Cabriolet();
 cabriolet.speed = 120;
 cabriolet.printSpeed();
+cabriolet.user = 'ỵi'
+console.log(cabriolet.user)
 cabriolet.openTop();
 cabriolet.closeTop();
 const tesla = new TeslaCabriolet();
